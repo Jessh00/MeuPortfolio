@@ -6,6 +6,13 @@
     padding: 0%;
 }
 
+.apresentacao img {
+    max-width: 40%; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 8px; /* Opcional, para dar um efeito mais arredondado */
+}
+
+
 body {
     height: 100vh;
     box-sizing: border-box;
@@ -14,7 +21,7 @@ body {
 }
 
 strong {
-    color: #7ae582;
+    color: #ff8fa3;
 
 }
 
@@ -45,10 +52,11 @@ strong {
 .apresentacao__links {
     display: flex;
     justify-content: space-between;
+    gap: 20px; /* Aumente esse valor conforme necessário */
 }
 
 .apresentacao__links__link {
-    background-color: #7ae582;
+    background-color: #ff8fa3;
     width: 280px;
     text-align: center;
     border-radius: 16px;
